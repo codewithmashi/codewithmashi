@@ -4,6 +4,8 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Android App Developer - Flutter
 -------------------------------
 
+<img align="right" alt="coding" width="400" src="https://camo.githubusercontent.com/19db51af5f90f1b152bc0b9078f5fe97053955be5074f03f17019c70345bdcdb/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966">
+
 I love Coding!
 
 * 🌍  I'm based in Faridabad
@@ -54,8 +56,6 @@ I love Coding!
 [![Mashi-91's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mashi-91&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true)](http://www.github.com/Mashi-91)
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Mashi-91&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true)](http://www.github.com/Mashi-91)
-
-[![GitHub Commits Graph](https://github-readme-activity-graph.cyclic.app/graph?username=Mashi-91&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph)](http://www.github.com/Mashi-91)
 
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mashi-91&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20Languages)](https://github.com/Mashi-91)
 
