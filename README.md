@@ -8,7 +8,7 @@ Android App Developer - Flutter
 
 I love Coding!
 
-* 🌍  I'm based in Faridabad
+* 🌍  I'm based in 🤔
 * 🖥️  See my portfolio at [My Website](http://mashi-91.github.io/)
 * ✉️  You can contact me at [aadilhasan9697@gmail.com](mailto:aadilhasan9697@gmail.com)
 * 🚀  I'm currently working on [Taska :- Task Managment App](http://github.com/Mashi-91/taska)
