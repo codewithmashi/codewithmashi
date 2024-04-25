@@ -72,8 +72,8 @@ I love Coding!
 </div>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; margin-top: 20px;">
-  <a href="https://github.com/Mashi-91/G7_trucker">
-    <img style="width: 45%; margin: 0.5%;" src="https://github-readme-stats.vercel.app/api/pin/?username=Mashi-91&repo=G7_trucker&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" />
+  <a href="https://github.com/Mashi-91/Horaz">
+    <img style="width: 45%; margin: 0.5%;" src="https://github-readme-stats.vercel.app/api/pin/?username=Mashi-91&repo=Horaz&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" />
   </a>
   <a href="https://github.com/Mashi-91/grocery_app">
     <img style="width: 45%; margin: 0.5%;" src="https://github-readme-stats.vercel.app/api/pin/?username=Mashi-91&repo=grocery_app&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" />
