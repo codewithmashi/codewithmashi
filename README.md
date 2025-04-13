@@ -11,10 +11,11 @@ I love Coding!
 * 🌍  I'm based in 🤔
 * 🖥️  See my portfolio at [My Website](https://mohdaadil.vercel.app/)
 * ✉️  You can contact me at [aadilhasan9697@gmail.com](mailto:aadilhasan9697@gmail.com)
-* 🚀  I'm currently working on [Taska :- Task Managment App](http://github.com/Mashi-91/Horaz)
-* 🧠  I'm learning Backend, JS, WebSocket
-* 🤝  I'm open to collaborating on Other Flutter App
-* ⚡  Fun fact I play Overwatch-2 !!
+* 🚀  I'm currently working on [NoteGent :- AI Note Generation App](https://notegent.vercel.app/)
+* 📱  Check out my previous project [Complicit :- Product Boycott App](https://play.google.com/store/apps/details?id=app.complicit.android)
+* 🧠  I specialize in Flutter, Backend Development, and Real-time Systems (WebSocket)
+* 🤝  Open to collaborating on impactful Flutter-based products
+* ⚡  Passionate about building efficient, user-centric digital experiences
 
 ### Skills
 
