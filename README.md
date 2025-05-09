@@ -32,7 +32,7 @@ I love Coding!
     <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" alt="Discord" />
   </a>
   
-  <a href="https://www.github.com/Mashi-91" target="_blank" rel="noreferrer">
+  <a href="https://www.github.com/codewithmashi" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" />
   </a>
   
@@ -54,29 +54,29 @@ I love Coding!
 
 <b>My GitHub Stats</b>
 
-[![Mashi-91's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mashi-91&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true)](http://www.github.com/Mashi-91)
+[![codewithmashi's GitHub stats](https://github-readme-stats.vercel.app/api?username=codewithmashi&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true)](http://www.github.com/codewithmashi)
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Mashi-91&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true)](http://www.github.com/Mashi-91)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=codewithmashi&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true)](http://www.github.com/codewithmashi)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mashi-91&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20Languages)](https://github.com/Mashi-91)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=codewithmashi&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20Languages)](https://github.com/codewithmashi)
 
 
 <b>Top Repositories</b>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;">
-  <a href="https://github.com/Mashi-91/taska">
-    <img style="width: 45%; margin: 0.5%;" src="https://github-readme-stats.vercel.app/api/pin/?username=Mashi-91&repo=taska&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" />
+  <a href="https://github.com/codewithmashi/taska">
+    <img style="width: 45%; margin: 0.5%;" src="https://github-readme-stats.vercel.app/api/pin/?username=codewithmashi&repo=taska&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" />
   </a>
-  <a href="https://github.com/Mashi-91/buy_me">
-    <img style="width: 45%; margin: 0.5%;" src="https://github-readme-stats.vercel.app/api/pin/?username=Mashi-91&repo=buy_me&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" />
+  <a href="https://github.com/codewithmashi/buy_me">
+    <img style="width: 45%; margin: 0.5%;" src="https://github-readme-stats.vercel.app/api/pin/?username=codewithmashi&repo=buy_me&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" />
   </a>
 </div>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; margin-top: 20px;">
-  <a href="https://github.com/Mashi-91/Horaz">
-    <img style="width: 45%; margin: 0.5%;" src="https://github-readme-stats.vercel.app/api/pin/?username=Mashi-91&repo=Horaz&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" />
+  <a href="https://github.com/codewithmashi/Horaz">
+    <img style="width: 45%; margin: 0.5%;" src="https://github-readme-stats.vercel.app/api/pin/?username=codewithmashi&repo=Horaz&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" />
   </a>
-  <a href="https://github.com/Mashi-91/grocery_app">
-    <img style="width: 45%; margin: 0.5%;" src="https://github-readme-stats.vercel.app/api/pin/?username=Mashi-91&repo=grocery_app&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" />
+  <a href="https://github.com/codewithmashi/grocery_app">
+    <img style="width: 45%; margin: 0.5%;" src="https://github-readme-stats.vercel.app/api/pin/?username=codewithmashi&repo=grocery_app&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" />
   </a>
 </div>
