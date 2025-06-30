@@ -67,8 +67,8 @@ I love Coding!
   <a href="https://github.com/codewithmashi/taska">
     <img style="width: 45%; margin: 0.5%;" src="https://github-readme-stats.vercel.app/api/pin/?username=codewithmashi&repo=taska&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" />
   </a>
-  <a href="https://github.com/codewithmashi/buy_me">
-    <img style="width: 45%; margin: 0.5%;" src="https://github-readme-stats.vercel.app/api/pin/?username=codewithmashi&repo=buy_me&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" />
+  <a href="https://github.com/codewithmashi/lifetune">
+    <img style="width: 45%; margin: 0.5%;" src="https://github-readme-stats.vercel.app/api/pin/?username=codewithmashi&repo=lifetune&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" />
   </a>
 </div>
 
