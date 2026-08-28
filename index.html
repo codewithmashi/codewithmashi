@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Mohd Aadil — codewithmashi</title>
+<meta name="description" content="Mohd Aadil (codewithmashi) — mobile & AI automation engineer based in Dubai. An interactive WebGL profile." />
+<meta property="og:title" content="Mohd Aadil — codewithmashi" />
+<meta property="og:description" content="Mobile & AI automation engineer, Dubai. Interactive WebGL profile." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛰️</text></svg>" />
+<style>
+  :root{
+    --bg:#05060a; --fg:#e8ecf6; --muted:#7d87a4;
+    --accent:#22d3ee; --accent2:#a78bfa;
+    --font:'SF Mono',ui-monospace,'JetBrains Mono',Menlo,Consolas,monospace;
+    --sans:-apple-system,BlinkMacSystemFont,'Inter','Segoe UI',Roboto,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;background:var(--bg);color:var(--fg);
+    font-family:var(--sans);overflow:hidden;
+    -webkit-font-smoothing:antialiased;
+  }
+  #scene{position:fixed;inset:0;display:block;z-index:0}
+  .overlay{position:fixed;inset:0;z-index:2;pointer-events:none;display:flex;flex-direction:column;justify-content:space-between;padding:clamp(18px,4vw,44px)}
+  /* scrims: keep the copy readable over a live particle field without hiding it */
+  .overlay::before{content:'';position:absolute;inset:auto 0 0 0;height:62%;pointer-events:none;
+    background:linear-gradient(to top,rgba(5,6,10,.94) 8%,rgba(5,6,10,.72) 38%,transparent 100%)}
+  .overlay::after{content:'';position:absolute;inset:0 0 auto 0;height:22%;pointer-events:none;
+    background:linear-gradient(to bottom,rgba(5,6,10,.75),transparent)}
+  .top,.bottom{position:relative;z-index:1}
+  .top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
+  .tag{font-family:var(--font);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+  .tag b{color:var(--accent);font-weight:600}
+  h1{
+    margin:0;font-size:clamp(34px,7.5vw,86px);line-height:.95;letter-spacing:-.03em;font-weight:700;
+    background:linear-gradient(100deg,var(--fg) 20%,var(--accent) 55%,var(--accent2) 90%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  .role{margin:14px 0 0;font-family:var(--font);font-size:clamp(11px,1.6vw,14px);color:#9aa6c4;letter-spacing:.04em;text-shadow:0 1px 12px rgba(5,6,10,.9)}
+  .role .on{color:var(--accent)}
+  .bottom{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
+  .links{display:flex;gap:10px;flex-wrap:wrap;pointer-events:auto}
+  .links a{
+    font-family:var(--font);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--fg);text-decoration:none;padding:9px 15px;border-radius:999px;
+    border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.03);
+    backdrop-filter:blur(10px);transition:.25s cubic-bezier(.2,.7,.3,1);
+  }
+  .links a:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px)}
+  .hint{font-family:var(--font);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;opacity:.75}
+  .stack{display:flex;gap:7px;flex-wrap:wrap;margin-top:16px;max-width:min(560px,90vw)}
+  .stack span{
+    font-family:var(--font);font-size:10px;letter-spacing:.09em;color:#93a0bd;
+    padding:5px 10px;border:1px solid rgba(255,255,255,.09);border-radius:5px;background:rgba(255,255,255,.02);
+  }
+  #loader{position:fixed;inset:0;z-index:5;display:grid;place-items:center;background:var(--bg);
+    font-family:var(--font);font-size:11px;letter-spacing:.3em;color:var(--muted);text-transform:uppercase;
+    transition:opacity .7s ease}
+  #loader.done{opacity:0;pointer-events:none}
+  .noscript{position:fixed;inset:0;z-index:6;display:grid;place-items:center;padding:32px;text-align:center;background:var(--bg)}
+  @media (max-width:640px){ .hint{display:none} }
+  @media (prefers-reduced-motion:reduce){ .links a{transition:none} }
+</style>
+</head>
+<body>
+<canvas id="scene" aria-label="Interactive WebGL particle scene" role="img"></canvas>
+
+<div class="overlay">
+  <div class="top">
+    <div class="tag">Dubai, UAE · <b>open to collaboration</b></div>
+    <div class="tag hint">drag to orbit · scroll to zoom</div>
+  </div>
+  <div class="bottom">
+    <div>
+      <h1>Mohd&nbsp;Aadil</h1>
+      <p class="role">Mobile &amp; AI-automation engineer <span class="on">//</span> Flutter · Swift · TypeScript · Python</p>
+      <div class="stack">
+        <span>Flutter</span><span>Dart</span><span>Swift</span><span>TypeScript</span><span>Node</span>
+        <span>Python</span><span>WebSocket</span><span>Firebase</span><span>Postgres</span><span>Modal</span>
+      </div>
+    </div>
+    <div class="links">
+      <a href="https://github.com/codewithmashi">GitHub</a>
+      <a href="https://www.linkedin.com/in/mashi91">LinkedIn</a>
+      <a href="https://mohdaadil.vercel.app/">Portfolio</a>
+      <a href="mailto:aadilhasan9697@gmail.com">Email</a>
+    </div>
+  </div>
+</div>
+
+<div id="loader">initialising webgl</div>
+<noscript><div class="noscript"><p>This page renders a WebGL scene and needs JavaScript.<br/>
+  Find me at <a style="color:#22d3ee" href="https://github.com/codewithmashi">github.com/codewithmashi</a>.</p></div></noscript>
+
+<script type="importmap">
+{ "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"
+} }
+</script>
+
+<script type="module">
+import * as THREE from 'three';
+import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
+import { RenderPass }     from 'three/addons/postprocessing/RenderPass.js';
+import { UnrealBloomPass }from 'three/addons/postprocessing/UnrealBloomPass.js';
+
+const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const canvas  = document.querySelector('#scene');
+
+const renderer = new THREE.WebGLRenderer({ canvas, antialias:true, alpha:false, powerPreference:'high-performance' });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setSize(innerWidth, innerHeight);
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.15;
+
+const scene  = new THREE.Scene();
+scene.fog    = new THREE.FogExp2(0x05060a, 0.055);
+const camera = new THREE.PerspectiveCamera(50, innerWidth/innerHeight, 0.1, 200);
+camera.position.set(0, 0, 15);
+
+const CY = new THREE.Color('#22d3ee'), VI = new THREE.Color('#a78bfa');
+
+/* ── 1. Shader particle shell ─────────────────────────────────────────────
+   Points distributed on a fibonacci sphere, displaced by curl-ish noise in
+   the vertex shader so the whole shell breathes without any CPU work.      */
+const COUNT = 5200;
+const pos   = new Float32Array(COUNT*3);
+const seed  = new Float32Array(COUNT);
+const csize = new Float32Array(COUNT);
+const GOLD  = Math.PI * (3 - Math.sqrt(5));
+for (let i=0;i<COUNT;i++){
+  const y = 1 - (i/(COUNT-1))*2, r = Math.sqrt(Math.max(0,1-y*y)), th = GOLD*i;
+  const rad = 4.6 + Math.random()*1.9;
+  pos[i*3]   = Math.cos(th)*r*rad;
+  pos[i*3+1] = y*rad;
+  pos[i*3+2] = Math.sin(th)*r*rad;
+  seed[i]  = Math.random()*Math.PI*2;
+  csize[i] = 1.1 + Math.random()*2.6;
+}
+const pGeo = new THREE.BufferGeometry();
+pGeo.setAttribute('position', new THREE.BufferAttribute(pos,3));
+pGeo.setAttribute('aSeed',    new THREE.BufferAttribute(seed,1));
+pGeo.setAttribute('aSize',    new THREE.BufferAttribute(csize,1));
+
+const pMat = new THREE.ShaderMaterial({
+  transparent:true, depthWrite:false, blending:THREE.AdditiveBlending,
+  uniforms:{ uTime:{value:0}, uPix:{value:Math.min(devicePixelRatio,2)},
+             uA:{value:CY}, uB:{value:VI}, uPulse:{value:0} },
+  vertexShader:`
+    uniform float uTime, uPix, uPulse;
+    attribute float aSeed, aSize;
+    varying float vMix, vAlpha;
+    // cheap hash-noise
+    float n(vec3 p){ return fract(sin(dot(p, vec3(12.9898,78.233,37.719)))*43758.5453); }
+    void main(){
+      vec3 p = position;
+      float t = uTime*0.32 + aSeed;
+      // drift along the tangent plane + radial breathing
+      p += vec3(sin(t)*0.34, cos(t*1.21)*0.34, sin(t*0.77)*0.34);
+      p *= 1.0 + uPulse*0.10 + sin(uTime*0.6 + aSeed)*0.012;
+      vMix   = clamp((p.y + 6.0)/12.0, 0.0, 1.0);
+      vec4 mv = modelViewMatrix * vec4(p,1.0);
+      vAlpha = smoothstep(30.0, 4.0, -mv.z);
+      gl_Position  = projectionMatrix * mv;
+      gl_PointSize = aSize * uPix * (26.0 / -mv.z);
+    }`,
+  fragmentShader:`
+    uniform vec3 uA, uB;
+    varying float vMix, vAlpha;
+    void main(){
+      vec2 c = gl_PointCoord - 0.5;
+      float d = length(c);
+      if(d > 0.5) discard;
+      float glow = pow(1.0 - d*2.0, 2.4);
+      gl_FragColor = vec4(mix(uA,uB,vMix), glow*vAlpha*0.92);
+    }`
+});
+const points = new THREE.Points(pGeo, pMat);
+scene.add(points);
+
+/* ── 2. Fresnel-shaded wireframe core ──────────────────────────────────── */
+const core = new THREE.Mesh(
+  new THREE.IcosahedronGeometry(2.75, 1),
+  new THREE.ShaderMaterial({
+    transparent:true, wireframe:true, blending:THREE.AdditiveBlending, depthWrite:false,
+    uniforms:{ uTime:{value:0}, uA:{value:CY}, uB:{value:VI} },
+    vertexShader:`
+      varying vec3 vN, vP;
+      void main(){ vN = normalize(normalMatrix*normal);
+        vec4 mv = modelViewMatrix*vec4(position,1.0); vP = mv.xyz;
+        gl_Position = projectionMatrix*mv; }`,
+    fragmentShader:`
+      uniform float uTime; uniform vec3 uA,uB;
+      varying vec3 vN,vP;
+      void main(){
+        float f = pow(1.0 - abs(dot(normalize(vN), normalize(-vP))), 1.7);
+        vec3 col = mix(uA, uB, 0.5 + 0.5*sin(uTime*0.4 + vP.y*0.28));
+        gl_FragColor = vec4(col, f*0.85 + 0.16);
+      }`
+  })
+);
+scene.add(core);
+
+const innerCore = new THREE.Mesh(
+  new THREE.IcosahedronGeometry(1.5, 0),
+  new THREE.MeshBasicMaterial({ color:0x22d3ee, wireframe:true, transparent:true, opacity:0.30 })
+);
+scene.add(innerCore);
+
+/* ── 3. Orbiting satellites — one per thing I actually build ───────────── */
+const ORBITS = [
+  { r:6.4, s:0.44, tilt:0.30, c:CY },
+  { r:7.8, s:-0.31, tilt:-0.55, c:VI },
+  { r:9.2, s:0.22, tilt:0.85, c:CY },
+];
+const sats = ORBITS.map(o=>{
+  const g = new THREE.Group(); g.rotation.x = o.tilt;
+  const m = new THREE.Mesh(
+    new THREE.SphereGeometry(0.085,16,16),
+    new THREE.MeshBasicMaterial({ color:o.c })
+  );
+  m.position.x = o.r; g.add(m);
+  // faint orbit ring
+  const ring = new THREE.Line(
+    new THREE.BufferGeometry().setFromPoints(
+      Array.from({length:129},(_,i)=>{ const a=i/128*Math.PI*2;
+        return new THREE.Vector3(Math.cos(a)*o.r, 0, Math.sin(a)*o.r); })),
+    new THREE.LineBasicMaterial({ color:o.c, transparent:true, opacity:0.16 })
+  );
+  g.add(ring); scene.add(g);
+  return { g, ...o };
+});
+
+/* ── 4. Bloom ──────────────────────────────────────────────────────────── */
+const composer = new EffectComposer(renderer);
+composer.addPass(new RenderPass(scene, camera));
+const bloom = new UnrealBloomPass(new THREE.Vector2(innerWidth, innerHeight), 0.72, 0.62, 0.14);
+composer.addPass(bloom);
+composer.setSize(innerWidth, innerHeight);
+
+/* ── 5. Interaction: drag-orbit, wheel-zoom, pointer parallax ──────────── */
+let tX=0, tY=0, rX=0, rY=0, dist=15, tDist=15, drag=false, px=0, py=0, pulse=0;
+const clamp=(v,a,b)=>Math.min(b,Math.max(a,v));
+
+canvas.addEventListener('pointerdown', e=>{ drag=true; px=e.clientX; py=e.clientY; canvas.setPointerCapture(e.pointerId); });
+canvas.addEventListener('pointerup',   ()=>{ drag=false; });
+canvas.addEventListener('pointermove', e=>{
+  if(drag){ tY += (e.clientX-px)*0.005; tX = clamp(tX+(e.clientY-py)*0.005, -1.1, 1.1); px=e.clientX; py=e.clientY; }
+  else { tY += ((e.clientX/innerWidth - 0.5)*0.6 - tY)*0.02; tX += ((e.clientY/innerHeight - 0.5)*0.4 - tX)*0.02; }
+});
+canvas.addEventListener('wheel', e=>{ e.preventDefault(); tDist = clamp(tDist + e.deltaY*0.012, 8, 26); }, {passive:false});
+canvas.addEventListener('click', ()=>{ pulse = 1; });
+
+addEventListener('resize', ()=>{
+  camera.aspect = innerWidth/innerHeight; camera.updateProjectionMatrix();
+  renderer.setSize(innerWidth, innerHeight); composer.setSize(innerWidth, innerHeight);
+});
+
+/* ── 6. Loop ───────────────────────────────────────────────────────────── */
+const clock = new THREE.Clock();
+function tick(){
+  requestAnimationFrame(tick);
+  const t = clock.getElapsedTime();
+  const spin = REDUCED ? 0 : 1;
+
+  rX += (tX-rX)*0.05; rY += (tY-rY)*0.05; dist += (tDist-dist)*0.06;
+  pulse += (0-pulse)*0.05;
+
+  points.rotation.y = rY + t*0.035*spin;  points.rotation.x = rX;
+  core.rotation.y   = rY + t*0.11*spin;   core.rotation.x   = rX + t*0.05*spin;
+  innerCore.rotation.y = -t*0.19*spin;    innerCore.rotation.z = t*0.11*spin;
+  sats.forEach(o=>{ o.g.rotation.y = t*o.s*spin; o.g.rotation.x = o.tilt + rX*0.5; });
+
+  pMat.uniforms.uTime.value = t;
+  pMat.uniforms.uPulse.value = pulse;
+  core.material.uniforms.uTime.value = t;
+  bloom.strength = 0.72 + pulse*0.5 + Math.sin(t*0.5)*0.05;
+
+  camera.position.z = dist;
+  camera.lookAt(0,0,0);
+  composer.render();
+}
+
+// only reveal once the first frame is genuinely on screen
+requestAnimationFrame(()=>{ tick(); document.getElementById('loader').classList.add('done'); });
+</script>
+</body>
+</html>

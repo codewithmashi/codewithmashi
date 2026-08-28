@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="232" viewBox="0 0 840 232" role="img" aria-label="Language mix across codewithmashi's public repositories">
+<rect width="840" height="232" rx="14" fill="#ffffff" stroke="#d1d9e0"/>
+<text x="38" y="48" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2328">What I build in</text>
+<text x="38" y="70" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10.5" letter-spacing="1.2" fill="#59636e">66 PUBLIC REPOS · BUILDING SINCE 2019</text>
+<circle cx="800" cy="44" r="4" fill="#0891b2"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/></circle>
+<rect x="38" y="96" width="764" height="14" rx="7" fill="#eaeef2"/>
+<rect x="38" y="96" width="419.92857142857144" height="14" rx="7" fill="#00B4AB"><animate attributeName="opacity" values="0.25;1" dur="0.6s" begin="0s" fill="freeze"/></rect><rect x="460.92857142857144" y="96" width="119.78571428571429" height="14" rx="7" fill="#3178c6"><animate attributeName="opacity" values="0.25;1" dur="0.6s" begin="0.07s" fill="freeze"/></rect><rect x="583.7142857142858" y="96" width="65.21428571428572" height="14" rx="7" fill="#f34b7d"><animate attributeName="opacity" values="0.25;1" dur="0.6s" begin="0.14s" fill="freeze"/></rect><rect x="651.9285714285716" y="96" width="65.21428571428572" height="14" rx="7" fill="#f1e05a"><animate attributeName="opacity" values="0.25;1" dur="0.6s" begin="0.21000000000000002s" fill="freeze"/></rect><rect x="720.1428571428573" y="96" width="51.57142857142857" height="14" rx="7" fill="#3572A5"><animate attributeName="opacity" values="0.25;1" dur="0.6s" begin="0.28s" fill="freeze"/></rect><rect x="774.7142857142859" y="96" width="24.285714285714285" height="14" rx="7" fill="#663399"><animate attributeName="opacity" values="0.25;1" dur="0.6s" begin="0.35000000000000003s" fill="freeze"/></rect><g>
+      <circle cx="43" cy="148" r="5" fill="#00B4AB"/>
+      <text x="56" y="152" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12.5" fill="#1f2328">Dart</text>
+      <text x="94.4" y="152" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11.5" fill="#59636e">55%</text>
+    </g><g>
+      <circle cx="301" cy="148" r="5" fill="#3178c6"/>
+      <text x="314" y="152" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12.5" fill="#1f2328">TypeScript</text>
+      <text x="398" y="152" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11.5" fill="#59636e">16%</text>
+    </g><g>
+      <circle cx="559" cy="148" r="5" fill="#f34b7d"/>
+      <text x="572" y="152" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12.5" fill="#1f2328">C++</text>
+      <text x="602.8" y="152" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11.5" fill="#59636e">9%</text>
+    </g><g>
+      <circle cx="43" cy="182" r="5" fill="#f1e05a"/>
+      <text x="56" y="186" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12.5" fill="#1f2328">JavaScript</text>
+      <text x="140" y="186" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11.5" fill="#59636e">9%</text>
+    </g><g>
+      <circle cx="301" cy="182" r="5" fill="#3572A5"/>
+      <text x="314" y="186" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12.5" fill="#1f2328">Python</text>
+      <text x="367.6" y="186" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11.5" fill="#59636e">7%</text>
+    </g><g>
+      <circle cx="559" cy="182" r="5" fill="#663399"/>
+      <text x="572" y="186" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12.5" fill="#1f2328">CSS</text>
+      <text x="602.8" y="186" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11.5" fill="#59636e">4%</text>
+    </g>
+</svg>

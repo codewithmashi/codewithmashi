@@ -1,0 +1,4 @@
+# local render previews
+_preview*.html
+node_modules/
+.DS_Store
